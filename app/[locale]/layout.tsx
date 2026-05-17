@@ -19,7 +19,7 @@ export default async function LocaleLayout({
   }
 
   return (
-    <html lang={locale} className="antialiased bg-neutral-900 text-neutral-100">
+    <html lang={locale} className="antialiased bg-neutral-900 text-neutral-100 overflow-hidden">
       <body>
         <ConfigProvider locale={locale}>{children}</ConfigProvider>
       </body>
